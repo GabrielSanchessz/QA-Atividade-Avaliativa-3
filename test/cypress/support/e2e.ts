@@ -12,6 +12,8 @@ declare global {
         totpSecret?: string
       }) => void
       eachSeries: any
+      dismissDialogs: () => void
+      registrarUsuario: (dados: any) => void
     }
   }
 }
